@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mofashi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zym\AppData\Local\Temp\RSPC7CC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mofashi.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\代码练习\mofashi\mofa.cpp"
+]
+Creating command line "cl.exe @C:\Users\zym\AppData\Local\Temp\RSPC7CC.tmp" 
+<h3>Output Window</h3>
+Compiling...
+mofa.cpp
+C:\代码练习\mofashi\mofa.cpp(15) : error C2057: expected constant expression
+C:\代码练习\mofashi\mofa.cpp(15) : error C2466: cannot allocate an array of constant size 0
+C:\代码练习\mofashi\mofa.cpp(15) : error C2057: expected constant expression
+C:\代码练习\mofashi\mofa.cpp(15) : error C2466: cannot allocate an array of constant size 0
+C:\代码练习\mofashi\mofa.cpp(15) : error C2087: '<Unknown>' : missing subscript
+C:\代码练习\mofashi\mofa.cpp(15) : error C2133: 'chessboard' : unknown size
+C:\代码练习\mofashi\mofa.cpp(25) : error C2374: 'i' : redefinition; multiple initialization
+        C:\代码练习\mofashi\mofa.cpp(17) : see declaration of 'i'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+mofa.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

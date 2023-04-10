@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 素数筛选 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\zym\AppData\Local\Temp\RSP81C3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/素数筛选.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\代码练习\素数筛选\a.cpp"
+]
+Creating command line "cl.exe @C:\Users\zym\AppData\Local\Temp\RSP81C3.tmp" 
+<h3>Output Window</h3>
+Compiling...
+a.cpp
+c:\代码练习\素数筛选\a.cpp(4) : error C2370: 'MAXN' : redefinition; different storage class
+        c:\program files (x86)\microsoft visual studio\vc98\include\eh.h(4) : see declaration of 'MAXN'
+c:\代码练习\素数筛选\a.cpp(5) : error C2086: 'primes' : redefinition
+c:\代码练习\素数筛选\a.cpp(5) : error C2086: 'cnt' : redefinition
+c:\代码练习\素数筛选\a.cpp(6) : error C2086: 'num' : redefinition
+c:\代码练习\素数筛选\a.cpp(7) : error C2084: function 'void __cdecl get_primes0(int)' already has a body
+c:\代码练习\素数筛选\a.cpp(14) : error C2084: function 'void __cdecl get_primes(int)' already has a body
+c:\代码练习\素数筛选\a.cpp(23) : error C2084: function 'int __cdecl main(void)' already has a body
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+a.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
